@@ -1,0 +1,269 @@
+		
+/* 		body {
+	background-image: url('bg2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	} */
+	
+	
+	
+    html{
+	scroll-behavior: smooth;
+    }
+    
+	#img1{
+    border-radius: 60%;
+	}
+	/* #jb{
+    
+	font-size: 35px;
+	background: -webkit-linear-gradient(#eee, #333);
+	-webkit-background-clip: text;
+	-webkit-text-fill-color: transparent;
+	} */
+	p{
+    text-align: center;
+    color: whitesmoke;
+    font-size: 55px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+    
+	}
+	#p1{
+    text-align: center;
+    /* color: goldenrod; */
+    /* color: #22284a; */
+    color: #3370FF;
+    font-size: 55px;
+    margin-top: -50px;
+    font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+    font-weight: bold;
+	}
+	/*  */
+	/* Button CSS */
+	/*  */
+	.button-wrapper {
+	position: relative;
+	}
+	
+	button {
+	box-sizing: border-box;
+	width: 48%;
+	margin: 1%;
+	font-family: 'Inter' Arial;
+	/* display: block; */
+	font-size: 18px;
+	/* line-height: 32px; */
+	font-weight: 700;
+	/* letter-spacing: 2px; */
+	/* padding: 16px 32px; */
+	background-color: rgba(0, 0, 0, 0.999);
+	color: white;
+	border-radius: 50px;
+	border: 0px;
+	cursor: pointer;
+    position: relative;
+	z-index: 1;
+	
+	} 
+	.btn-bg1 {
+	/* box-sizing: border-box; */
+	position: relative;
+	left: 2px;
+    top: -48px;
+	width: 215px;
+	height: 50px;
+	background: linear-gradient(90deg, #FF8038 0%, #FF0099 30.43%, #00EBEB 68.23%, #DB00FF 100%);
+	background-size: 600% 600%;
+	border-radius: 50px;
+	animation: AnimateBorder 4s ease infinite;
+	-webkit-animation: AnimateBorder 4s ease infinite;
+	-moz-animation: AnimateBorder 4s ease infinite;
+	z-index: 0;
+	transform: translate(-2px, -2px);
+	transition: filter 1s ease-in;
+	}
+	.btn-bg2 {
+	/* box-sizing: border-box; */
+	position: relative;
+	left: 7px;
+    top: -48px;
+	width: 215px;
+	height: 50px;
+	background: linear-gradient(90deg, #FF8038 0%, #FF0099 30.43%, #00EBEB 68.23%, #DB00FF 100%);
+	background-size: 600% 600%;
+	border-radius: 50px;
+	animation: AnimateBorder 4s ease infinite;
+	-webkit-animation: AnimateBorder 4s ease infinite;
+	-moz-animation: AnimateBorder 4s ease infinite;
+	z-index: 0;
+	transform: translate(-2px, -2px);
+	transition: filter 1s ease-in;
+	}
+	.btn:hover .btn-bg1 {
+	filter: blur(10px);
+	transition: filter .4s ease-in;
+	}
+	.btn:hover .btn-bg2 {
+	filter: blur(10px);
+	transition: filter .4s ease-in;
+	}
+	
+	@-webkit-keyframes AnimateBorder {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+	}
+	@-moz-keyframes AnimateBorder {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+	}
+	@keyframes AnimateBorder {
+	0%{background-position:0% 50%}
+	50%{background-position:100% 50%}
+	100%{background-position:0% 50%}
+	}
+	.btn-bg3 {
+	/* box-sizing: border-box; */
+	position: relative;
+    left: 172px;
+    top: -49px;
+	width: 215px;
+	height: 50px;
+	background: linear-gradient(90deg, #FF8038 0%, #FF0099 30.43%, #00EBEB 68.23%, #DB00FF 100%);
+	background-size: 600% 600%;
+	border-radius: 50px;
+	animation: AnimateBorder 4s ease infinite;
+	-webkit-animation: AnimateBorder 4s ease infinite;
+	-moz-animation: AnimateBorder 4s ease infinite;
+	z-index: 0;
+	transform: translate(-2px, -2px);
+	transition: filter 1s ease-in;
+	}
+	.btn-bg4 {
+	/* box-sizing: border-box; */
+	position: relative;
+    left: 7px;
+    top: -47.5px;
+	width: 215px;
+	height: 50px;
+	background: linear-gradient(90deg, #FF8038 0%, #FF0099 30.43%, #00EBEB 68.23%, #DB00FF 100%);
+	background-size: 600% 600%;
+	border-radius: 50px;
+	animation: AnimateBorder 4s ease infinite;
+	-webkit-animation: AnimateBorder 4s ease infinite;
+	-moz-animation: AnimateBorder 4s ease infinite;
+	z-index: 0;
+	transform: translate(-2px, -2px);
+	transition: filter 1s ease-in;
+	}
+	
+	.btn-bg5 {
+	/* box-sizing: border-box; */
+	position: relative;
+    left: 7px;
+    top: -47.5px;
+	width: 215px;
+	height: 50px;
+	background: linear-gradient(90deg, #FF8038 0%, #FF0099 30.43%, #00EBEB 68.23%, #DB00FF 100%);
+	background-size: 600% 600%;
+	border-radius: 50px;
+	animation: AnimateBorder 4s ease infinite;
+	-webkit-animation: AnimateBorder 4s ease infinite;
+	-moz-animation: AnimateBorder 4s ease infinite;
+	z-index: 0;
+	transform: translate(-2px, -2px);
+	transition: filter 1s ease-in;
+	}
+	
+	.btn:hover .btn-bg3 {
+	filter: blur(10px);
+	transition: filter .4s ease-in;
+	}
+	.btn:hover .btn-bg4 {
+	filter: blur(10px);
+	transition: filter .4s ease-in;
+	}
+	
+	.container{
+	
+	margin-left: auto;
+	margin-right: auto;
+	width: 50em;
+	
+	}
+	.spotlight{
+	display: flex;
+	/* justify-content: center; */
+	/* align-items: center; */
+	
+	}
+	.image{
+	width: 245px;
+	height: 245px; 
+	display: block;
+	border-radius: 100%;
+	
+	}
+	
+	.heading{
+	color: #3370FF;
+	font-weight: bold;
+	font-size: 24px;
+	font-family: 'Alice';
+	letter-spacing: -0.015em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	padding-bottom: 3px;
+	}
+	.info{
+	color: #020939;
+	/* font-size: 18px; */
+	opacity: 0.6;
+	letter-spacing: -0.02em;
+	font-family: 'Gill Sans', 'Gill Sans MT', Calibri, 'Trebuchet MS', sans-serif;
+	font-weight: normal;
+	line-height: 1.5em;
+	font-size: 1.35em; 
+	/* line-height: 1.35em; */
+	
+	}
+	.content{
+	width: 70%;
+	
+	}
+	.homepage{
+	/* background-color: #4696e5; */
+	background:  linear-gradient(rgba(255, 255, 255, 0.6),rgba(0,0,0,0.1)), url('bg2.jpg');
+	background-size: cover;
+	background-repeat: no-repeat;
+	background-attachment: scroll;
+	/* z-index: -1; */
+	/* color: #d1e5f9; */
+	padding: 4.5em 0 2.5em 0 ;
+	/* -moz-align-items: center;
+	-webkit-align-items: center;
+	-ms-align-items: center;
+	align-items: center;
+	display: -moz-flex;
+	display: -webkit-flex;
+	display: -ms-flex;
+	display: flex;
+	-moz-justify-content: center;
+	-webkit-justify-content: center;
+	-ms-justify-content: center;
+	justify-content: center; */
+	height: 100vh;
+	min-height: 35em;
+	}
+	.first{
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	justify-content: center;
+	margin: 0;
+	margin-top: 7rem;   
+	
+	}
+	
